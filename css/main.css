@@ -1,0 +1,35 @@
+
+
+h1 {
+  text-align: center;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  #player {
+    height: auto;
+  width: auto;
+}
