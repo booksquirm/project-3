@@ -104,3 +104,4 @@ function doMoreStuff() {
     document.body.style.backgroundImage = 
     "url('https://i.ibb.co/n6FVfrS/whales.png')";
     }
+
