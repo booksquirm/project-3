@@ -1,35 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Reenie+Beanie&display=swap');
 
+body {
+  background-color: #eae6db;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 h1 {
+  color: #445852;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: xxx-large;
   text-align: center;
 }
 
-nav {
-    background-color: #eee;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: #000;
-    text-decoration: underline;
-  }
+h2 {
+  color: #a36657;
+}
 
-  #player {
-    height: auto;
+.yarn {
+  float: right;
+  height: 60px;
   width: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a36657;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 50px;
+}
+
+nav a:hover {
+  color: #869876;
 }

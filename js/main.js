@@ -8,8 +8,8 @@ var myTimer = false;
 
 function onYouTubeIframeAPIReady() {
     player = new YT.Player("player", {
-        height: "auto",
-        width: "auto",
+        height: "480",
+        width: "854",
         videoId: "BJFlbaSBniI",
         playerVars: {
             playsinline: 1,
@@ -95,11 +95,12 @@ function manageCues(time) {
 
 function doStuff() {
     console.log("doStuff");
-    document.body.style.backgroundImage = 
-"url('https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
+    document.body.style.backgroundColor = "#AED0D8";
 }
 
 function doMoreStuff() {
-    document.body.style.backgroundColor = "#283618";
     console.log("moreStuffDone");
-}
+    document.body.style.backgroundColor = "#eae6db";
+    document.body.style.backgroundImage = 
+    "url('https://i.ibb.co/n6FVfrS/whales.png')";
+    }
