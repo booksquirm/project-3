@@ -58,7 +58,7 @@ nav a {
 nav a:hover {
   color: #869876;
 }
-
+/*
 .container {
   width: 800px;
 
@@ -75,12 +75,12 @@ img {
   height: 200px;
   margin: 10px;
 }
+*/
 
 .controls button {
   background-color: #eae6db;
   border: 1px solid #a36657;
   border-radius: 5px;
-  cursor: pointer;
   font-family: 'Josefin Sans', sans-serif;
   margin: 3px;
   padding: 5px;

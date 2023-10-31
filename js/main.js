@@ -68,7 +68,6 @@ function onPlayerStateChange(event) {
     }
 }
 
-
 function getTime(event) {
     let vidInfo = event.target.getVideoData();
     time = Math.floor(event.target.getCurrentTime());
